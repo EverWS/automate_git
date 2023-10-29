@@ -44,19 +44,19 @@ O script Git Automatizado executa as seguintes operações:
 
     Exemplo de uso:
     ```shell
-    python git_script.py -m "Correção de bugs" -u
+    python git_auto.py -m "Correção de bugs" -u
     ```
 
 4. **Alias Git (opcional)**:
     - Você pode criar um alias Git para chamar o script com mais facilidade. Para criar um alias chamado "auto", adicione o seguinte alias ao seu arquivo `.gitconfig`:
     ```shell
     [alias]
-    auto = !python /caminho/para/git_script.py
+    auto = !python /caminho/para/git_auto.py
     ```
-    Certifique-se de substituir `/caminho/para/git_script.py` pelo caminho real para o script em seu sistema.
+    Certifique-se de substituir `/caminho/para/git_auto.py` pelo caminho real para o script em seu sistema.
 
 5. **Usando o Alias Git**:
-    - Após a configuração do alias, você pode usar o comando `git auto` no lugar de `python git_script.py` para executar o script. Por exemplo:
+    - Após a configuração do alias, você pode usar o comando `git auto` no lugar de `python git_auto.py` para executar o script. Por exemplo:
     ```shell
     git auto -m "Correção de bugs" -u
     ```
