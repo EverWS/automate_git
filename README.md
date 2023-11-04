@@ -80,3 +80,4 @@ O script Git Automatizado executa as seguintes operações:
 Esperamos que este script torne suas tarefas Git mais eficientes e seu fluxo de trabalho mais produtivo. Se você tiver alguma dúvida ou encontrar problemas, sinta-se à vontade para relatar problemas ou fazer sugestões de aprimoramento.
 
 Happy coding!
+
